@@ -1,9 +1,70 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>F1 365 — Formula 1 ogni giorno</title><link rel="stylesheet" href="style.css"></head><body><header>
-<a class="logo" href="index.html">F1 <span>365</span></a>
-<nav>
-<a href="index.html">Home</a><a href="news.html">News</a><a href="calendar.html">Calendario</a>
-<a href="results.html">Risultati</a><a href="standings.html">Classifiche</a>
-<a href="drivers.html">Piloti</a><a href="teams.html">Team</a><a href="live.html">F1 Live</a>
-</nav></header>
-<main><section class="hero hero-home"><div><p class="eyebrow">FORMULA 1 · 365 GIORNI L'ANNO</p><h1>Tutto il mondo della <b>Formula 1.</b></h1><p>News, calendario, risultati, classifiche, piloti, team e F1 Live in un unico posto.</p><div class="actions"><a class="btn" href="news.html">Ultime News</a><a class="btn ghost" href="calendar.html">Calendario 2026</a></div></div></section>
-<section class="grid"><a class="card" href="news.html"><small>01</small><h2>News</h2><p>Le ultime notizie e gli aggiornamenti F1.</p></a><a class="card" href="calendar.html"><small>02</small><h2>Calendario</h2><p>Gran Premi della stagione 2026.</p></a><a class="card" href="standings.html"><small>03</small><h2>Classifiche</h2><p>Piloti e costruttori.</p></a><a class="card" href="results.html"><small>04</small><h2>Risultati</h2><p>Gli ultimi risultati disponibili.</p></a></section></main><footer>F1 365 · Tutto il mondo della Formula 1, 365 giorni l'anno.</footer></body></html>
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050505">
+<title>F1 365 — Formula 1, 365 giorni l'anno</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><strong>F1</strong> <span>365</span></a>
+  <button class="menu-btn" aria-label="Apri menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
+  <nav class="nav">
+    <a class="active" href="index.html">Home</a><a href="news.html">News</a><a href="calendar.html">Calendario</a>
+    <a href="results.html">Risultati</a><a href="standings.html">Classifiche</a><a href="drivers.html">Piloti</a>
+    <a href="teams.html">Team</a><a href="live.html">F1 Live</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-art" aria-hidden="true">
+    <div class="speed s1"></div><div class="speed s2"></div><div class="speed s3"></div>
+    <div class="track"></div>
+    <div class="car">
+      <div class="wheel w1"></div><div class="wheel w2"></div>
+      <div class="nose"></div><div class="body"></div><div class="cockpit"></div><div class="wing"></div>
+    </div>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">FORMULA 1 · 365 GIORNI L'ANNO</p>
+    <h1>Tutto il mondo della <em>Formula 1.</em></h1>
+    <p class="lead">News, Gran Premi, risultati, classifiche, piloti, team e live timing in un'unica esperienza.</p>
+    <div class="hero-actions"><a class="btn" href="news.html">ULTIME NEWS</a><a class="btn outline" href="calendar.html">CALENDARIO 2026</a></div>
+  </div>
+  <div class="hero-bottom"><span>F1 365</span><span>THE HOME OF FORMULA 1</span></div>
+</section>
+
+<section class="ticker"><div class="ticker-label">F1 365 LIVE</div><div id="tickerText">Caricamento calendario e prossimi appuntamenti…</div></section>
+
+<section class="section">
+  <div class="section-head"><div><p class="eyebrow">IN PRIMO PIANO</p><h2>Il paddock, ogni giorno.</h2></div><a href="news.html">Tutte le news →</a></div>
+  <div class="feature-grid">
+    <article class="feature feature-main"><div class="feature-tag">NEWS</div><h3>Le notizie più importanti della Formula 1</h3><p>Segui gli aggiornamenti dalle fonti ufficiali e resta sempre aggiornato.</p><a href="news.html" class="text-link">Leggi le news →</a></article>
+    <article class="feature"><div class="feature-tag">CALENDARIO</div><h3>Il prossimo Gran Premio</h3><div id="nextRace" class="big-stat">—</div><p id="nextRaceMeta">Caricamento…</p><a href="calendar.html" class="text-link">Vedi calendario →</a></article>
+    <article class="feature"><div class="feature-tag">LIVE</div><h3>F1 Live</h3><div class="live-dot">● ONLINE</div><p>Stato delle sessioni e collegamenti ai dati ufficiali.</p><a href="live.html" class="text-link">Apri F1 Live →</a></article>
+  </div>
+</section>
+
+<section class="section dark-section">
+  <div class="section-head"><div><p class="eyebrow">MONDIALE 2026</p><h2>Classifiche.</h2></div><a href="standings.html">Classifiche complete →</a></div>
+  <div class="stand-grid"><div class="stand-card"><span>01</span><div><small>LEADER PILOTI</small><strong id="leaderDriver">—</strong></div><b id="leaderPoints">—</b></div>
+  <div class="stand-card"><span>01</span><div><small>LEADER COSTRUTTORI</small><strong id="leaderTeam">—</strong></div><b id="teamPoints">—</b></div></div>
+</section>
+
+<section class="section">
+  <div class="section-head"><div><p class="eyebrow">ESPLORA</p><h2>Dentro la Formula 1.</h2></div></div>
+  <div class="explore-grid">
+    <a href="drivers.html"><span>01</span><strong>Piloti</strong><small>Scopri la griglia</small></a>
+    <a href="teams.html"><span>02</span><strong>Team</strong><small>Costruttori e storia</small></a>
+    <a href="results.html"><span>03</span><strong>Risultati</strong><small>Ultime gare</small></a>
+    <a href="calendar.html"><span>04</span><strong>Calendario</strong><small>Tutti i Gran Premi</small></a>
+  </div>
+</section>
+</main>
+<footer><div class="brand"><strong>F1</strong> <span>365</span></div><p>Tutto il mondo della Formula 1, 365 giorni l'anno.</p></footer>
+<script src="site.js"></script>
+</body>
+</html>

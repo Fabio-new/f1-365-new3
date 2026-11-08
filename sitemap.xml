@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://f1-365.vercel.app/</loc></url>
-<url><loc>https://f1-365.vercel.app/news.html</loc></url>
-<url><loc>https://f1-365.vercel.app/calendar.html</loc></url>
-<url><loc>https://f1-365.vercel.app/results.html</loc></url>
-<url><loc>https://f1-365.vercel.app/standings.html</loc></url>
-<url><loc>https://f1-365.vercel.app/drivers.html</loc></url>
-<url><loc>https://f1-365.vercel.app/teams.html</loc></url>
-<url><loc>https://f1-365.vercel.app/live.html</loc></url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://f1-365.vercel.app/</loc></url><url><loc>https://f1-365.vercel.app/news.html</loc></url><url><loc>https://f1-365.vercel.app/calendar.html</loc></url><url><loc>https://f1-365.vercel.app/results.html</loc></url><url><loc>https://f1-365.vercel.app/standings.html</loc></url><url><loc>https://f1-365.vercel.app/drivers.html</loc></url><url><loc>https://f1-365.vercel.app/teams.html</loc></url><url><loc>https://f1-365.vercel.app/live.html</loc></url></urlset>
